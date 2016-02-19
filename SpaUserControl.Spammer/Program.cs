@@ -11,7 +11,7 @@ namespace SpaUserControl.Spammer
     {
         static void Main(string[] args)
         {
-            CultureInfo cultureInfo = new CultureInfo("pt-BR"); // en-US
+            CultureInfo cultureInfo = new CultureInfo("pt-BR"); // en-US ou pt-BR
             Thread.CurrentThread.CurrentCulture   = cultureInfo;
             Thread.CurrentThread.CurrentUICulture = cultureInfo;
 

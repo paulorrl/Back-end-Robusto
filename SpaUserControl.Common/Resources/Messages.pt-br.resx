@@ -121,6 +121,6 @@
     <value>Sua senha foi alterada com sucesso.</value>
   </data>
   <data name="ResetPasswordEmailBody" xml:space="preserve">
-    <value>Sua nova senha é {0}.</value>
+    <value>Sua nova senha é {0}</value>
   </data>
 </root>

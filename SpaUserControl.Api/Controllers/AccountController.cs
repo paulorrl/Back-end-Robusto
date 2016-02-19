@@ -121,8 +121,8 @@ namespace SpaUserControl.Api.Controllers
 
             try
             {
-                _service.ResetPassword(model.Email);
-                response = Request.CreateResponse(HttpStatusCode.OK, Messages.ResetPasswordEmailBody);
+                var password = _service.ResetPassword(model.Email);
+                response = Request.CreateResponse(HttpStatusCode.OK, String.Format(Messages.ResetPasswordEmailBody, password));
             }
             catch (Exception ex)
             {
